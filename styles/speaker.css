@@ -131,3 +131,215 @@ padding-top: .5ems;
 padding-bottom: .5ems;
 
 /* border deleted */
+}
+/* image rule set in the article*/
+
+article img {
+
+float: right;
+
+margin-top: 1px;
+
+margin-bottom: 1px;
+
+margin-left: 1px;
+
+margin-right: 1px;
+
+border: 1px solid black;
+
+}
+
+/* h2 element in the article*/
+
+article h2 {
+
+padding-top: 0;
+
+}
+
+/* h3 element in the article*/
+
+article h3 {
+
+font-size: 105%;
+
+padding-bottom: .25ems;
+
+}
+
+/* adding the CSS rule set for the figure */
+
+figure {
+
+float : right ;
+
+margin-right : 1.5em ;
+
+}
+
+/* adding the CSS rule set for the figcaption */
+
+figcaption {
+
+display : block ;
+
+font-weight : bold ;
+
+padding-top : .25em ;
+
+margin-bottom : 1em ;
+
+border-bottom : 1px solid black ;
+
+}
+
+/* rule set for the h1 element */
+
+section h1 {
+
+font-size: 145%;
+
+color: green;
+
+padding-top: .5ems;
+
+padding-bottom: .25ems;
+
+margin-top: 0;
+
+margin-bottom: 0;
+
+}
+
+#speaker {
+
+font-size:100%;
+
+color:gray;
+
+}
+
+/* aside properties*/
+
+main aside {
+
+width: 215px;
+
+float:right;
+
+padding-left: 20px;
+
+padding-bottom: 20px;
+
+}
+
+/* changed properties of h2 seperatedly for the h2 elements in both section and aside element */
+
+main section h2{
+
+font-size: 130%;
+
+color: #800000;
+
+padding-top: .5em;
+
+padding-bottom: .25em;
+
+}
+
+main aside h2{
+
+font-size: 130%;
+
+color: #800000;
+
+padding-top: .5em;
+
+padding-bottom: .25em;
+
+}
+
+/* rule set for the h3 element in the aside element */
+
+main aside h3{
+
+font-size:105%;
+
+padding-bottom: .25em;
+
+}
+
+main img {
+
+padding-top: 1em;/* space between image and associated names*/
+
+padding-bottom: 1em;
+
+}
+
+/* rule set for the img element in the aside element */
+
+main aside img {
+
+padding-bottom: 1em;
+
+}
+
+main p {
+
+padding-bottom: .5em;
+
+}
+
+.quotes {
+
+padding-right: 2em;
+
+padding-left: 2em;
+
+font-style: italic;
+
+}
+
+main ul {
+
+padding-bottom: .25em;
+
+padding-left: 1.25em;
+
+}
+
+main li {
+
+padding-bottom: .35em;
+
+}
+
+a:hover,a:focus{
+
+font-style:italic;
+
+}
+/* footer background-color set same as the color of the border.*/
+footer {
+
+background-color: #931420;
+
+/* clear property for the footer to clear floating */
+
+clear:both;
+
+}
+
+footer p{
+
+text-align: center;
+
+/*set the top and bottom padding for the paragraph */
+
+padding-top: 1em;
+
+padding-bottom: 1em;
+
+}
